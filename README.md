@@ -1,4 +1,17 @@
 # tsw
+----------------------------------------------------------------------------------------------------------------------------------------
+	private AutoGuma AG;
+	
+	@BeforeAll
+	public static void proveriOperativniSistem() {
+		assertTrue(System.getProperty("os.name").contains("Windows"));
+	}
+	
+	@BeforeEach
+	void init() {
+		AG = new AutoGuma("Michelin", true, 18, 180, 40);
+	}
+-----------------------------------------------------------------------------------------------------------------------------------------
 @Timeout(value = 5, unit = TimeUnit.SECONDS)
 
 @RunWith(Suite.class)
