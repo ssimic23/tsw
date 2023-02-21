@@ -35,6 +35,7 @@
 @RunWith(JUnitPlatform.class)
 @SelectClasses({VulkanizerskaRadnjaDodajGumuParameterizedTest.class, VulkanizerskaRadnjaPronadjiGumuParametrizedTest.class})
 ///////////////////////////////////////
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 RUNER KLASA
@@ -68,6 +69,7 @@ class TestRunner {
 		}
 	}
 }
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------
  *DODAJ* 
  KLASA ZA DODAVANJE
@@ -120,6 +122,7 @@ private VulkanizerskaRadnja VR;
 			{new AutoGuma("Pirelli", true, 19, 170, 30)}	
 		});
 	}
+	
   -----------------------------------------------------------------------------------------------------------------------------------------------------
 *PRONADJI*
 KLASA ZA PROLAZAK
