@@ -12,6 +12,11 @@
 		AG = new AutoGuma("Michelin", true, 18, 180, 40);
 	}
 -----------------------------------------------------------------------------------------------------------------------------------------
+	@Rule
+	public final TestName name = new TestName();
+	
+	assertEquals("getZimskaTest", name.getMethodName());
+-----------------------------------------------------------------------------------------------------------------------------------------
 @Timeout(value = 5, unit = TimeUnit.SECONDS)
 
 @RunWith(Suite.class)
@@ -31,6 +36,7 @@
 @SelectClasses({VulkanizerskaRadnjaDodajGumuParameterizedTest.class, VulkanizerskaRadnjaPronadjiGumuParametrizedTest.class})
 ///////////////////////////////////////
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
 RUNER KLASA
 
 class TestRunner {
