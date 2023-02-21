@@ -3,24 +3,20 @@
 
 @RunWith(Suite.class)
 @SuiteClasses({ AutoGumaTest.class })
-public class AutoGumaTests {
-}
+//////////////////////////////////////////
 
 @RunWith(JUnitPlatform.class)
 @SelectClasses(RacunarTest.class)
-public class RacunarTests {
-}
+////////////////////////////////////////
 
 @RunWith(Suite.class)
 @SuiteClasses({ VulkanizerskaRadnjaDodajGumuParametrizedTest.class,
 		VulkanizerskaRadnjaPronadjiGumuParazmetrizedTest.class })
-public class VRParametrizedTests {
-}
+////////////////////////////////////////
 
 @RunWith(JUnitPlatform.class)
 @SelectClasses({VulkanizerskaRadnjaDodajGumuParameterizedTest.class, VulkanizerskaRadnjaPronadjiGumuParametrizedTest.class})
-class VRTests {
-}
+///////////////////////////////////////
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 RUNER KLASA
 
