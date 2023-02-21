@@ -22,6 +22,8 @@ public class VRParametrizedTests {
 class VRTests {
 }
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+RUNER KLASA
+
 class TestRunner {
 
 	// u okviru ove klase se vrse testovi za prethodno testirane 2 napravljene kolekcije
@@ -53,6 +55,9 @@ class TestRunner {
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------
  *DODAJ* 
+ KLASA ZA DODAVANJE
+ 
+ 
 private AutoGuma AG;
 private VulkanizerskaRadnja VR;
 	
@@ -102,6 +107,9 @@ private VulkanizerskaRadnja VR;
 	}
   -----------------------------------------------------------------------------------------------------------------------------------------------------
 *PRONADJI*
+KLASA ZA PROLAZAK
+
+
 private AutoGuma AG;
 	private VulkanizerskaRadnja VR;
 	LinkedList<AutoGuma>novaLista = new LinkedList<>();
